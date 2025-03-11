@@ -7,7 +7,8 @@ import { Component, Input} from '@angular/core';
   styleUrl: './text-overflow.component.css'
 })
 export class TextOverflowComponent {
-  @Input() titulo: string = "input a output"
-  texto: string = "do you like a p. diddy?"
+  @Input() titulo: string = "input a output";
+  @Input() texto: string = "do you like a p. diddy?";
+  @Input() clip: boolean = true;
 
 }
